@@ -1,0 +1,9 @@
+[Bb]in
+[Oo]bj
+[Pp]ublish
+
+.idea/
+.vs/
+*.csproj.user
+*.DotSettings.user
+UpgradeLog.htm

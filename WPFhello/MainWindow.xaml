@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFhello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFhello"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <Label>Hello, WPF!</Label>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="20,-300,0,0" Height="34" />
+        <TextBox x:Name="Name1" Text="Enter name" TextWrapping="Wrap" Height="20" Width="120" Margin="60,-300,600,0" />
+        <Label Content="Name" HorizontalAlignment="Left" Margin="20,-240,0,0" Height="34" />
+        <TextBox x:Name="Name2" Text="Enter name" TextWrapping="Wrap" Height="20" Width="120" Margin="60,-240,600,0" />
+        <Label Content="Name" HorizontalAlignment="Left" Margin="20,-180,0,0" Height="34" />
+        <TextBox x:Name="Name3" Text="Enter name" TextWrapping="Wrap" Height="20" Width="120" Margin="60,-180,600,0" />
+        <Button x:Name="FirstButton" Content="Hello!" HorizontalAlignment="Left" Margin="24,150,0,0"
+                VerticalAlignment="Top"
+                Click="HandleHelloClick" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="ArialBlack">
+            I edit XAML myself!
+        </TextBlock>
+    </Grid>
+</Window>
